@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 500px;
+    max-width: 95%;
+    /* background-color: red; */
+    display: flex;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 20%;
+    padding: 10px;
+    border: 1.4px solid white;
+    /* border-radius: 3px; */
+    color: white;
+}
+
+.red {
+    background-color: rgb(226, 58, 58);
+}
+
+.yellow {
+    background-color: rgb(238, 218, 41);
+}
+
+.green {
+    background-color: rgb(16, 197, 46);
+}
